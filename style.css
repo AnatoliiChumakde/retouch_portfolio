@@ -23,6 +23,7 @@ body{
     display: grid;
     grid-template-columns: repeat(3,1fr);
     gap: 15px;
+    align-items: start;
 }
 
 .masonry_block{
