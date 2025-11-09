@@ -43,7 +43,30 @@ const interiors = [
     
 ]
 const manipulation = [
-   
+   [
+        './photos/thumbnails_photomanipulation/1.jpg',
+        './photomanipulation/1.jpg'
+    ],
+    [
+        './photos/thumbnails_photomanipulation/2.jpg',
+        './photomanipulation/2.jpg'
+    ],
+    [
+        './photos/thumbnails_photomanipulation/3.jpg',
+        './photomanipulation/3.jpg'
+    ],
+    [
+        './photos/thumbnails_photomanipulation/4.jpg',
+        './photomanipulation/4.jpg'
+    ],
+    [
+        './photos/thumbnails_photomanipulation/5.jpg',
+        './photomanipulation/5.jpg'
+    ],
+      [
+        './photos/thumbnails_photomanipulation/6.png',
+        './photomanipulation/6.jpg'
+    ],
 ]
 const retouch = [
 
@@ -51,52 +74,148 @@ const retouch = [
         './photos/thumbnails_retouch/1.jpg',
         './retouch/1.jpg'
     ],
-  
-  
-    
-  
+    [
+        './photos/thumbnails_retouch/2.jpg',
+        './retouch/2.jpg'
+    ],
+    [
+        './photos/thumbnails_retouch/3.jpg',
+        './retouch/3.jpg'
+    ],
+    [
+        './photos/thumbnails_retouch/4.jpg',
+        './retouch/4.jpg'
+    ],
+    [
+        './photos/thumbnails_retouch/5.jpg',
+        './retouch/5.jpg'
+    ],
+    [
+        './photos/thumbnails_retouch/6.jpg',
+        './retouch/6.jpg'
+    ],
+    [
+        './photos/thumbnails_retouch/7.jpg',
+        './retouch/7.jpg'
+    ],
+    [
+        './photos/thumbnails_retouch/8.jpg',
+        './retouch/8.jpg'
+    ],
+    [
+        './photos/thumbnails_retouch/9.jpg',
+        './retouch/9.jpg'
+    ],
+    [
+        './photos/thumbnails_retouch/10.jpg',
+        './retouch/10.jpg'
+    ],
+    [
+        './photos/thumbnails_retouch/11.jpg',
+        './retouch/11.jpg'
+    ],
+    [
+        './photos/thumbnails_retouch/12.jpg',
+        './retouch/12.jpg'
+    ],
+    [
+        './photos/thumbnails_retouch/13.jpg',
+        './retouch/13.jpg'
+    ],
+    [
+        './photos/thumbnails_retouch/14.jpg',
+        './retouch/14.jpg'
+    ],
+    [
+        './photos/thumbnails_retouch/15.jpg',
+        './retouch/15.jpg'
+    ],
+    [
+        './photos/thumbnails_retouch/16.jpg',
+        './retouch/16.jpg'
+    ],
+    [
+        './photos/thumbnails_retouch/17.jpg',
+        './retouch/17.jpg'
+    ],
+    [
+        './photos/thumbnails_retouch/18.jpg',
+        './retouch/18.jpg'
+    ],
+    [
+        './photos/thumbnails_retouch/19.jpg',
+        './retouch/19.jpg'
+    ],
+    [
+        './photos/thumbnails_retouch/20.jpg',
+        './retouch/20.jpg'
+    ],
+    [
+        './photos/thumbnails_retouch/21.jpg',
+        './retouch/21.jpg'
+    ],
+    [
+        './photos/thumbnails_retouch/22.jpg',
+        './retouch/22.jpg'
+    ],
+    [
+        './photos/thumbnails_retouch/23.jpg',
+        './retouch/23.jpg'
+    ],
+    [
+        './photos/thumbnails_retouch/24.jpg',
+        './retouch/24.jpg'
+    ],
+    [
+        './photos/thumbnails_retouch/25.jpg',
+        './retouch/25.jpg'
+    ],
+    [
+        './photos/thumbnails_retouch/26.jpg',
+        './retouch/26.jpg'
+    ],
+    [
+        './photos/thumbnails_retouch/27.jpg',
+        './retouch/27.jpg'
+    ],
+    [
+        './photos/thumbnails_retouch/28.jpg',
+        './retouch/28.jpg'
+    ],
     
 ]
 const restoration = [
-    [
-        './photos/thumbnails_restoration/001t.jpg',
-
-        ''
+     [
+        './photos/thumbnails_restoration/1.jpg',
+        './restoration/1.jpg'
     ],
     [
-        './photos/thumbnails_restoration/002t.jpg',
-
-        ''
+        './photos/thumbnails_restoration/2.jpg',
+        './restoration/2.jpg'
     ],
     [
-        './photos/thumbnails_restoration/003t.jpg',
-
-        ''
+        './photos/thumbnails_restoration/3.jpg',
+        './restoration/3.jpg'
     ],
     [
-        './photos/thumbnails_restoration/004t.jpg',
-
-        ''
+        './photos/thumbnails_restoration/4.jpg',
+        './restoration/4.jpg'
     ],
     [
-        './photos/thumbnails_restoration/005t.jpg',
-
-        ''
+        './photos/thumbnails_restoration/5.jpg',
+        './restoration/5.jpg'
     ],
     [
-        './photos/thumbnails_restoration/006t.jpg',
-
-        ''
+        './photos/thumbnails_restoration/6.jpg',
+        './restoration/6.jpg'
     ],
     [
-        './photos/thumbnails_restoration/007t.jpg',
-
-        ''
+        './photos/thumbnails_restoration/7.jpg',
+        './restoration/7.jpg'
     ],
     [
-        './photos/thumbnails_restoration/008t.jpg',
-
-        ''
+        './photos/thumbnails_restoration/8.jpg',
+        './restoration/8.jpg'
     ],
    
 ]
