@@ -5,7 +5,7 @@ const aboutButton = document.querySelector('#aboutButton')
 const peopleButton = document.querySelector('#peopleButton')
 const childrenButton = document.querySelector('#childrenButton')
 const interiorsButton = document.querySelector('#interiorsButton')
-const productsButton = document.querySelector('#productsButton')
+const manipulationButton = document.querySelector('#manipulationButton')
 const retouchButton = document.querySelector('#retouchButton')
 const restorationButton = document.querySelector('#restorationButton')
 
@@ -42,163 +42,16 @@ const children = [
 const interiors = [
     
 ]
-const products = [
+const manipulation = [
    
 ]
 const retouch = [
 
     [
-        './photos/thumbnails_retouch/001t.jpg',
-
-        'https://content.freelancehunt.com/snippet/ce440/3eca5/782354/01.jpg'
+        './photos/thumbnails_retouch/1.jpg',
+        './retouch/1.jpg'
     ],
-    [
-        './photos/thumbnails_retouch/026t.jpg',
-
-        'https://content.freelancehunt.com/snippet/f1fe139a-583e-4297-b9e5-522b936266be/1982473/20251004_232139.jpg'
-    ],
-    [
-        './photos/thumbnails_retouch/002t.jpg',
-
-        'https://content.freelancehunt.com/snippet/f9e9a/50b72/779964/24_2.jpg'
-    ],
-
-    [
-        './photos/thumbnails_retouch/007t.jpg',
-
-        'https://content.freelancehunt.com/snippet/a062e02c-e7dc-40e8-a531-304cf947502a/1981086/20250930_101442.jpg'
-    ],
-    [
-        './photos/thumbnails_retouch/002_01t.jpg',
-
-        'https://content.freelancehunt.com/snippet/bc8e47dc-2b82-45b0-8ca6-3ba2d29dfceb/1982609/002_01.jpg'
-    ],
-    [
-        './photos/thumbnails_retouch/017t.jpg',
-
-        'https://content.freelancehunt.com/snippet/7553ded8-e5d3-4b34-89ed-b1b14910524e/1981321/91kKy0doAQw.jpg'
-    ],
-
-    [
-        './photos/thumbnails_retouch/018t.jpg',
-
-        'https://content.freelancehunt.com/snippet/09e7e005-5361-40d7-8342-356bb2ff4d3b/1982614/018.jpg'
-    ],
-    [
-        './photos/thumbnails_retouch/002_02t.jpg',
-
-        'https://content.freelancehunt.com/snippet/cfe3fba2-d51a-404b-b00a-ea6601167507/1982616/20251005_172355.jpg'
-    ],
-    [
-        './photos/thumbnails_retouch/002_03t.jpg',
-
-        ''
-    ],
-    [
-        './photos/thumbnails_retouch/003t.jpg',
-
-        ''
-    ],
-    [
-        './photos/thumbnails_retouch/004t.jpg',
-
-        ''
-    ],
-    [
-        './photos/thumbnails_retouch/005t.jpg',
-
-        ''
-    ],
-    [
-        './photos/thumbnails_retouch/006t.jpg',
-
-        ''
-    ],
-    [
-        './photos/thumbnails_retouch/016t.jpg',
-
-        ''
-    ],
-    [
-        './photos/thumbnails_retouch/016_01t.jpg',
-
-        ''
-    ],
-    [
-        './photos/thumbnails_retouch/008t.jpg',
-
-        ''
-    ],
-    [
-        './photos/thumbnails_retouch/009t.jpg',
-
-        ''
-    ],
-    [
-        './photos/thumbnails_retouch/010t.jpg',
-
-        ''
-    ],
-    [
-        './photos/thumbnails_retouch/011t.jpg',
-
-        ''
-    ],
-    [
-        './photos/thumbnails_retouch/012t.jpg',
-
-        ''
-    ],
-    [
-        './photos/thumbnails_retouch/013t.jpg',
-
-        ''
-    ],
-    [
-        './photos/thumbnails_retouch/014t.jpg',
-
-        ''
-    ],
-    [
-        './photos/thumbnails_retouch/015t.jpg',
-
-        ''
-    ],
-    [
-        './photos/thumbnails_retouch/019t.jpg',
-
-        ''
-    ],
-    [
-        './photos/thumbnails_retouch/020t.jpg',
-
-        ''
-    ],
-    [
-        './photos/thumbnails_retouch/021t.jpg',
-
-        ''
-    ],
-    [
-        './photos/thumbnails_retouch/022t.jpg',
-
-        ''
-    ],
-    [
-        './photos/thumbnails_retouch/023t.jpg',
-
-        ''
-    ],
-    [
-        './photos/thumbnails_retouch/024t.jpg',
-
-        ''
-    ],
-    [
-        './photos/thumbnails_retouch/025t.jpg',
-
-        ''
-    ],
+  
   
     
   
@@ -288,7 +141,7 @@ const navMenuButtonsHandler = (tempArr , avtiveBtn) => {
     peopleButton.classList.remove('active_nav_button')
     childrenButton.classList.remove('active_nav_button')
     interiorsButton.classList.remove('active_nav_button')
-    productsButton.classList.remove('active_nav_button')
+    manipulationButton.classList.remove('active_nav_button')
     retouchButton.classList.remove('active_nav_button')
     restorationButton.classList.remove('active_nav_button')
 
@@ -299,7 +152,7 @@ aboutButton.addEventListener('click',()=> navMenuButtonsHandler(about , aboutBut
 peopleButton.addEventListener('click',()=> navMenuButtonsHandler(people , peopleButton ))
 childrenButton.addEventListener('click',()=> navMenuButtonsHandler(children , childrenButton))
 interiorsButton.addEventListener('click',()=> navMenuButtonsHandler(interiors , interiorsButton))
-productsButton.addEventListener('click',()=> navMenuButtonsHandler(products , productsButton))
+manipulationButton.addEventListener('click',()=> navMenuButtonsHandler(manipulation , manipulationButton))
 retouchButton.addEventListener('click',()=> navMenuButtonsHandler(retouch , retouchButton))
 restorationButton.addEventListener('click',()=> navMenuButtonsHandler(restoration , restorationButton))
 
